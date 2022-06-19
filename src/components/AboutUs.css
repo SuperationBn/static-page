@@ -1,0 +1,59 @@
+.Aboutus_container {
+  padding: 3rem 1rem;
+}
+
+.flex_aboutus {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.about_text_content h2 {
+  font-size: 3.8rem;
+}
+
+.about_text_content p {
+  font-size: 2rem;
+  margin: 3rem 0rem;
+}
+
+/* SLIDER CON CSS */
+.about_img_content {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.about_img_content>img {
+  scroll-snap-align: start;
+}
+
+.about_img_content img {
+  border-radius: 1rem;
+  width: 30rem;
+  object-fit: contain;
+}
+
+.about_img_content::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 769px) {
+  .Aboutus_container {
+    padding: 9rem 2rem;
+  }
+
+  .flex_aboutus {
+    flex-direction: row;
+  }
+
+  .flex_aboutus {
+    text-align: left;
+  }
+}

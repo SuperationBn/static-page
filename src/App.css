@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;600;800&display=swap');
+
+* {
+  font-family: 'Mukta', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+
+html {
+  font-size: 50%;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(231, 234, 237);
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+}
+
+p {
+  line-height: 1.1;
+}
+
+
+@media only screen and (min-width: 523px) {
+  html {
+    font-size: 53%;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  html {
+    font-size: 58.5%;
+  }
+}

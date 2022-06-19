@@ -1,0 +1,67 @@
+.flex_hero {
+  margin-top: 7rem;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.text_conteiner {
+  flex: 1 1 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text_conteiner span {
+  font-size: 2rem;
+}
+
+.text_conteiner h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  margin: 2rem 0rem;
+}
+
+.text_conteiner p {
+  font-size: 2.4rem;
+  margin: 2rem 0rem;
+}
+
+button {
+  cursor: pointer;
+  width: 15rem;
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  background-color: deeppink;
+  color: aliceblue;
+  border-radius: 50rem;
+}
+
+button:hover {
+  background-color: rgb(248, 84, 171);
+}
+
+.img_container {
+  flex: 1 1 10rem;
+}
+
+.img_container img {
+  position: relative;
+  bottom: -15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+
+  .Hero_container {
+    padding: 0rem 2rem;
+  }
+
+  .flex_hero {
+    flex-direction: row;
+    gap: 5rem;
+  }
+}
